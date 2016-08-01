@@ -1,6 +1,6 @@
 # Nextcloud web-installer
 
-![](https://github.com/nextcloud/screenshots/blob/master/web-installer/step_1.png)
+![](https://github.com/nextcloud/screenshots/blob/master/web-installer/step_1.jpg)
 
 If you want to install Nextcloud on your webspace (shared hosting, ...) our web installer is the easiest way to do. 
 
