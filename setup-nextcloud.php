@@ -142,7 +142,7 @@ class Setup {
 
 		// downloading latest release
 		if (!file_exists('nc.zip')) {
-			$error .= Setup::getFile('https://download.nextcloud.com/server/releases/nextcloud-9.0.53.zip','nc.zip');
+			$error .= Setup::getFile('https://download.nextcloud.com/server/releases/nextcloud-10.0.0.zip','nc.zip');
 		}
 
 		// unpacking into nextcloud folder
