@@ -28,7 +28,7 @@
  */
 
 // Nextcloud version
-define('NC_VERSION', '11.0.0');
+define('NC_VERSION', '11.0.1');
 
 // init
 ob_start();
@@ -618,7 +618,7 @@ input[type="submit"] img, input[type="button"] img, button img, .button img { cu
 					return true;
 				}
 				urlNotExists(
-					window.location.href, 
+					window.location.href,
 					function(){
 						window.location.assign(document.forms["install"]["directory"].value);
 					}
