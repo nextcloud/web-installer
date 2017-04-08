@@ -135,7 +135,7 @@ class Setup {
 	*/
 	static public function install() {
 		$error = '';
-		$directory = $_GET['directory'];
+		$directory = trim($_GET['directory']);
 
 		// Test if folder already exists
 		if(file_exists('./'.$directory.'/status.php')) {
