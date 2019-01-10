@@ -28,7 +28,7 @@
  */
 
 // Nextcloud version
-define('NC_VERSION', '14.0.4');
+define('NC_VERSION', '15.0.1');
 
 // init
 ob_start();
@@ -75,9 +75,9 @@ class Setup {
 		$error = '';
 		$missingDependencies = array();
 
-		// do we have PHP 5.4.0 or newer?
-		if(version_compare(PHP_VERSION, '5.6.0', '<')) {
-			$error.='PHP 5.6.0 is required. Please ask your server administrator to update PHP to version 5.6.0 or higher.<br/>';
+		// do we have PHP 7.0.0 or newer?
+		if(version_compare(PHP_VERSION, '7.0.0', '<')) {
+			$error.='PHP 7.0.0 is required. Please ask your server administrator to update PHP to version 7.0.0 or higher.<br/>';
 		}
 
 		// running oC on windows is unsupported since 8.1
