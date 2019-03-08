@@ -28,7 +28,7 @@
  */
 
 // Nextcloud version
-define('NC_VERSION', '15.0.2');
+define('NC_VERSION', '15.0.5');
 
 // init
 ob_start();
