@@ -684,7 +684,7 @@ input[type="submit"] img, input[type="button"] img, button img, .button img { cu
 	* Shows the welcome screen of the setup wizard
 	*/
 	static public function showWelcome() {
-		$txt='Welcome to the Setup Wizard for<br /><b>Nextcloud '.NC_VERSION.'</b>!<br /><br />This wizard will:<br />1. Check the server dependencies<br />2. Download Nextcloud<br />3. Install Nextcloud in a few simple steps';
+		$txt='Welcome to the Setup Wizard for<br /><b>Nextcloud </b>!<br /><br />This wizard will:<br />1. Check the server dependencies<br />2. Download Nextcloud<br />3. Install Nextcloud in a few simple steps';
 		Setup::showContent('Setup Wizard',$txt,1);
 	}
 
