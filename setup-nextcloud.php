@@ -27,8 +27,8 @@
  * Please copy this file into your webserver root and open it with a browser. The setup wizard checks the dependency, downloads the newest Nextcloud version, unpacks it and redirects to the Nextcloud first run wizard.
  */
 
-// Nextcloud version
-define('NC_VERSION', '16.0.5');
+// Nextcloud version with possible values from https://download.nextcloud.com/server/releases/*.zip
+define('NC_VERSION', 'latest');
 
 // init
 ob_start();
@@ -144,7 +144,7 @@ class Setup {
 
 		// downloading latest release
 		if (!file_exists('nc.zip')) {
-			$error .= Setup::getFile('https://download.nextcloud.com/server/releases/nextcloud-'.NC_VERSION.'.zip','nc.zip');
+			$error .= Setup::getFile('https://download.nextcloud.com/server/releases/'.NC_VERSION.'.zip','nc.zip');
 		}
 
 		// unpacking into nextcloud folder
@@ -684,7 +684,7 @@ input[type="submit"] img, input[type="button"] img, button img, .button img { cu
 	* Shows the welcome screen of the setup wizard
 	*/
 	static public function showWelcome() {
-		$txt='Welcome to the Setup Wizard for<br /><b>Nextcloud '.NC_VERSION.'</b>!<br /><br />This wizard will:<br />1. Check the server dependencies<br />2. Download Nextcloud<br />3. Install Nextcloud in a few simple steps';
+		$txt='Welcome to the Setup Wizard for<br /><b>Nextcloud</b>!<br /><br />This wizard will:<br />1. Check the server dependencies<br />2. Download Nextcloud<br />3. Install Nextcloud in a few simple steps';
 		Setup::showContent('Setup Wizard',$txt,1);
 	}
 
