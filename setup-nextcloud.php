@@ -75,7 +75,6 @@ class Setup {
 		$error = '';
 		$missingDependencies = array();
 
-		// do we have PHP 7.4.0 or newer?
 		if(version_compare(PHP_VERSION, '8.0.0', '<')) {
 			$error.='PHP 8.0.0 is required. Please ask your server administrator to update PHP to version 8.0.0 or higher.<br/>';
 		}
