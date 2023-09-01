@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>privacy</id>
+    <name>Privacy</name>
+    <summary>-</summary>
+    <description><![CDATA[The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators.]]></description>
+    <version>1.11.0</version>
+    <licence>agpl</licence>
+    <author mail="georg.ehrke@nextcloud.com">Georg Ehrke</author>
+    <namespace>Privacy</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/nextcloud/privacy/issues/</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27" />
+    </dependencies>
+    <default_enable />
+    <settings>
+        <personal-section>OCA\Privacy\Settings\PrivacySection</personal-section>
+        <personal>OCA\Privacy\Settings\MissionSettings</personal>
+        <personal>OCA\Privacy\Settings\UserDataManifestoSettings</personal>
+        <personal>OCA\Privacy\Settings\WhereIsYourDataSettings</personal>
+        <personal>OCA\Privacy\Settings\WhoHasAccessSettings</personal>
+    </settings>
+</info>

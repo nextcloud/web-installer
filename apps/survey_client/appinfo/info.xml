@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>survey_client</id>
+	<name>Usage survey</name>
+	<summary>Sends anonymized data to Nextcloud to help us to improve Nextcloud.</summary>
+	<description>
+		Sends anonymized data to Nextcloud to help us to improve Nextcloud. You
+		always have full control over the content sent to Nextcloud and can disable
+		it again at any time.
+	</description>
+
+	<version>1.15.0</version>
+	<licence>agpl</licence>
+	<author>Björn Schiessle</author>
+	<author>Joas Schilling</author>
+
+	<namespace>Survey_Client</namespace>
+	<default_enable/>
+
+	<category>tools</category>
+
+	<website>https://github.com/nextcloud/survey_client</website>
+	<bugs>https://github.com/nextcloud/survey_client/issues</bugs>
+
+	<dependencies>
+		<nextcloud min-version="27" max-version="27" />
+	</dependencies>
+
+	<repair-steps>
+		<post-migration>
+			<step>OCA\Survey_Client\Migration\SendAdminNotification</step>
+		</post-migration>
+	</repair-steps>
+
+	<settings>
+		<admin>OCA\Survey_Client\Settings\AdminSettings</admin>
+		<admin-section>OCA\Survey_Client\Settings\AdminSection</admin-section>
+	</settings>
+</info>

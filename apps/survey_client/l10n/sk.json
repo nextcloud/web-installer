@@ -1,0 +1,27 @@
+{ "translations": {
+    "Last report sent on: {on}" : "Posledná správa odoslaná: {on}",
+    "An error occurred while sending your report." : "Pri odosielaní vašej správy sa vyskytla chyba.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Zoznam aplikácií <em>(pre každú aplikáciu: názov, verzia, stav)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Databázové prostredie <em>(typ, verzia, veľkosť databázy)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informácie o šifrovaní <em>(je zapnuté?, aký je predvolený modul)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Počet zdieľaní <em>(podle typu a nastavení oprávnenia)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Prostredie PHP <em>(verzia, limit pamäte, maximálny čas vykonávania, maximálna veľkosť súboru)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Podrobnosti inštancie servera <em>(verzia, použitá medzipamäť, stav uzamknutia/ukážok/avatarov)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Štatistika <em>(počet súborov, používateľov, úložísk podľa typu, komentárov a štítkov)</em>",
+    "Usage survey" : "Prieskum používania",
+    "Help improve Nextcloud" : "Pomôžte vylepšiť Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Chcete nám pomôcť vylepšiť Nextcloud poskytnutím anonymných údajov o vašom nastavení a použití? Môžete ho kedykoľvek deaktivovať v nastaveniach správcu.",
+    "Not now" : "Teraz nie",
+    "Send usage" : "Poslať prehľad o pužívaní",
+    "Never" : "Nikdy",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Posiela anonymizované údaje vývojárom Nextcloudu čo pomáha k jeho zlepšovaniu.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Posiela anonymizované údaje vývojárom Nextcloudu, aby pomohli vylepšiť Nextcloud. Vy\n\t\tbudete vždy mať úplnú kontrolu nad obsahom zaslaným vývojárom Nextcloudu a môže to zakázať\n\t\tkedykoľvek.",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Môžete pomôcť vylepšiť Nextcloud zaslaním niekoľkých údajov o vašom aktuálnom nastavení a použití.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vaše súkromie berieme vážne. Posielanie údajov je v predvolenom nastavení zakázané a ak sa rozhodnete zapnúť ho, najskôr sa anonymizujú a máte možnosť voľby, aký obsah povolíte zdieľať. Po prijatí hlásenia sa predchádzajúca správa odstráni. Všetky údaje, ktoré sú aktuálne uložené na serveri vymažete, ak odošlete hlásenie so všetkými prázdnymi kolónkami",
+    "Send new report now" : "Poslať novú správu",
+    "Send usage survey monthly" : "Posielať prehľad o používaní mesačne",
+    "Data to send" : "Dáta na odoslanie",
+    "Last report sent on: %s" : "Posledná správa odoslaná: %s",
+    "Last report" : "Posledná správa"
+},"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
+}

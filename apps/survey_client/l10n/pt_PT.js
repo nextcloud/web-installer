@@ -1,0 +1,26 @@
+OC.L10N.register(
+    "survey_client",
+    {
+    "Last report sent on: {on}" : "Último reporte enviado em: {on}",
+    "An error occurred while sending your report." : "Ocorreu um erro ao enviar o seu relatório.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Lista de aplicações <em>(por cada aplicação: nome, versão, estado de disponibilidade) </em>",
+    "Database environment <em>(type, version, database size)</em>" : "Ambiente de base de dados <em>(tipo, versão, tamanho da base de dados)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informação cifrada <em>(está activa?, qual é o módulo padrão)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Número de partilhas <em>(por tipo e definição de permissão) </em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Ambiente PHP <em>(versão, limite de memória, tempo máximo de execução, tamanho máximo de ficheiros) </em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalhes da instância de servidor <em>(versão, memcache usada, estado de bloqueio/pre-visualizações/avatars)</em>",
+    "Usage survey" : "Inquérito de utilização",
+    "Help improve Nextcloud" : "Ajude a melhorar a Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Quer ajudar-nos a melhorar a Nextcloud enviando alguns dados anonimizado sobre a sua configuração e utilização? A qualquer altura pode voltar a desactivar o envio nas definições de administrador.",
+    "Not now" : "Agora não",
+    "Send usage" : "Enviar utilização",
+    "Never" : "Nunca",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Pode ajudar-nos a melhorar a Nextcloud enviando alguns dos seus dados sobre a configuração e utilização actuais.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "A sua privacidade é importante para nós. O envio de dados está inactivo por defeito, and se decidir activar, serão anonimizados primeiro, tendo ainda a opção de escolher o que quer partilhar. Depois de receber o relatório, o anterior é removido. Carregue um novo relatório para apagar todos os dados actualmente armazenados no servidor",
+    "Send new report now" : "Enviar novo relatório agora",
+    "Send usage survey monthly" : "Enviar formulário de utilização mensalmente",
+    "Data to send" : "Dados a enviar",
+    "Last report sent on: %s" : "Último reporte enviado em: %s",
+    "Last report" : "Último relatório"
+},
+"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

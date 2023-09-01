@@ -1,0 +1,13 @@
+OC.L10N.register(
+    "support",
+    {
+    "Link:" : "Linku:",
+    "Password:" : "Fjalëkalimi:",
+    "Forum" : "Forum",
+    "News" : "Lajme",
+    "Like our Facebook page" : "Pëlqeni faqen tonë në Facebook",
+    "Follow us on Twitter" : "Na ndiqni në Twitter",
+    "Check out our blog" : "Shikoni blogun tonë",
+    "Subscribe to our newsletter" : "Abonohu në gazeten tonë"
+},
+"nplurals=2; plural=(n != 1);");

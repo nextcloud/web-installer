@@ -1,0 +1,11 @@
+{ "translations": {
+    "Edit" : "Redaktirläň",
+    "Open sidebar" : "Gapdal paneli açyň",
+    "Download" : "Göçürip almak",
+    "Delete" : "Pozmak",
+    "Name" : "Ady",
+    "Save" : "Saklamak",
+    "Back" : "Yzyna",
+    "Cancel" : "ýatyrmak"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

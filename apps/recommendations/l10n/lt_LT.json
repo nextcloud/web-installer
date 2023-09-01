@@ -1,0 +1,12 @@
+{ "translations": {
+    "Recommended files" : "Rekomenduojami failai",
+    "Recently commented" : "Paskiausiai komentuoti",
+    "Recently edited" : "Paskiausiai taisyti",
+    "Recently shared" : "Paskiausiai bendrinti",
+    "Recommendations" : "Rekomendacijos",
+    "Shows recommended files" : "Rodo rekomenduojamus failus",
+    "Shows recommended files for quick access of files and folders with recent activity" : "Rodo rekomenduojamus failus sparčiai prieigai prie failų ar aplankų su paskiausia veikla",
+    "No recommendations yet" : "Rekomendacijų kol kas nėra",
+    "Show recommendations" : "Rodyti rekomendacijas"
+},"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
+}

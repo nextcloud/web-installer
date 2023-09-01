@@ -1,0 +1,28 @@
+{
+    "name": "nextcloud/recommendations",
+    "description": "Nextcloud Recommendations",
+    "type": "library",
+    "license": "AGPL-3.0-only",
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"platform": {
+			"php": "8.0"
+		}
+	},
+    "authors": [
+        {
+            "name": "Christoph Wurst",
+            "email": "christoph@winzerhof-wurst.at"
+        }
+    ],
+    "scripts": {
+        "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
+        "cs:fix": "php-cs-fixer fix",
+        "test:unit": "echo 'Only testing installation of the app'"
+    },
+    "require-dev": {
+        "nextcloud/coding-standard": "^1"
+    }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>related_resources</id>
+	<name>Related Resources</name>
+	<summary>Displays resources related to current item in right panel</summary>
+	<description>
+		Displays resources related to current item in right panel.
+	</description>
+	<version>1.2.0</version>
+	<licence>agpl</licence>
+	<author>Maxence Lange</author>
+	<namespace>RelatedResources</namespace>
+	<documentation>
+		<admin>https://github.com/nextcloud/related_resources/</admin>
+	</documentation>
+	<category>tools</category>
+	<website>https://github.com/nextcloud/related_resources/</website>
+	<bugs>https://github.com/nextcloud/related_resources/issues</bugs>
+	<repository>https://github.com/nextcloud/related_resources.git</repository>
+	<dependencies>
+		<nextcloud min-version="27" max-version="27"/>
+	</dependencies>
+
+	<commands>
+		<command>OCA\RelatedResources\Command\Test</command>
+	</commands>
+
+</info>

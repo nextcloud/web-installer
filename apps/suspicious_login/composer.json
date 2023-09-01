@@ -1,0 +1,50 @@
+{
+    "name": "christophwurst/suspicious_login",
+    "description": "Detect and warn about suspicious IPs logging into Nextcloud",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nextcloud-deps/RubixML"
+        }
+    ],
+    "require": {
+        "amphp/amp": "^2.6.2",
+        "amphp/parallel": "^1.4.3",
+        "darsyn/ip": "^4.1.0",
+        "rubix/ml": "dev-chore/bump-flysystem-v2.1.1"
+    },
+    "license": "AGPLv3",
+    "authors": [
+        {
+            "name": "Christoph Wurst",
+            "email": "christoph@winzerhof-wurst.at"
+        }
+    ],
+    "scripts": {
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
+        "cs:fix": "php-cs-fixer fix",
+        "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+        "test": "phpunit -c tests/phpunit.xml",
+        "test:unit": "phpunit -c tests/phpunit.xml tests/Unit",
+        "test:unit:dev": "phpunit -c tests/phpunit.xml tests/Unit --no-coverage"
+    },
+    "require-dev": {
+        "christophwurst/nextcloud_testing": "^0.12.4",
+        "nextcloud/coding-standard": "^0.5.0 || ^1.0.0"
+    },
+	"config": {
+		"sort-packages": true,
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"autoloader-suffix": "SuspiciousLogin",
+		"platform": {
+			"php": "8.0"
+		}
+	},
+	"autoload" : {
+		"psr-4": {
+			"OCA\\SuspiciousLogin\\": "./lib/"
+		}
+	}
+}

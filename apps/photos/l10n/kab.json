@@ -1,0 +1,12 @@
+{ "translations": {
+    "Videos" : "Tividyutin",
+    "Favorites" : "Imenyafen",
+    "Tags" : "Tibzimin",
+    "Back" : "Retour",
+    "Save" : "Sekles",
+    "Group" : "Agraw",
+    "Favorite" : "Menyif",
+    "Remove from favorites" : "Kkes-it seg ismal",
+    "Add" : "Rnu"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

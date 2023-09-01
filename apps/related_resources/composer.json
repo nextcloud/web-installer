@@ -1,0 +1,47 @@
+{
+	"name": "nextcloud/related_resources",
+	"description": "RelatedResources App",
+	"minimum-stability": "stable",
+	"license": "agpl",
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"autoloader-suffix": "RelatedResources",
+		"platform": {
+			"php": "8.0.2"
+		}
+	},
+	"authors": [
+		{
+			"name": "Maxence Lange",
+			"email": "maxence@artificial-owl.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"OCA\\RelatedResources\\": "lib/"
+		}
+	},
+	"scripts": {
+		"cs:check": "php-cs-fixer fix --dry-run --diff",
+		"cs:fix": "php-cs-fixer fix",
+		"psalm": "psalm --threads=1 --update-baseline",
+		"psalm:init": "psalm --init",
+		"psalm:update-baseline": "psalm --threads=1 --update-baseline",
+		"psalm:clear": "psalm --clear-cache && psalm --clear-global-cache",
+		"psalm:fix": "psalm --alter --issues=InvalidReturnType,MissingReturnType,InvalidNullableReturnType,MissingParamType,InvalidFalsableReturnType",
+		"lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+		"test:unit": "echo 'Only testing installation of the app'"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5",
+		"vimeo/psalm": "^4.22",
+		"nextcloud/coding-standard": "^1.0",
+		"nextcloud/ocp": "dev-stable27"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OCP\\": "vendor/nextcloud/ocp/OCP"
+		}
+	}
+}

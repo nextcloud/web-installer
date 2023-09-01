@@ -1,0 +1,41 @@
+{
+	"autoload-dev": {
+		"psr-4": {
+			"OCP\\": "vendor/nextcloud/ocp/OCP",
+			"OCA\\TwoFactorTOTP\\": "lib/"
+		}
+	},
+	"require": {
+		"christian-riesen/base32": "^1.6.0",
+		"rullzer/easytotp": "^0.1.4"
+	},
+	"require-dev": {
+		"christian-riesen/otp": "2.*",
+		"christophwurst/nextcloud_testing": "^0.12",
+		"nextcloud/coding-standard": "^1.0.0",
+		"nextcloud/ocp": "dev-stable27",
+		"vimeo/psalm": "^5.7"
+	},
+	"scripts": {
+		"lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+		"cs:check": "php-cs-fixer fix --dry-run --diff",
+		"cs:fix": "php-cs-fixer fix",
+		"psalm": "psalm --threads=1",
+		"psalm:update-baseline": "psalm --threads=1 --update-baseline --set-baseline=tests/psalm-baseline.xml",
+		"psalm:clear": "psalm --clear-cache && psalm --clear-global-cache",
+		"psalm:fix": "psalm --alter --issues=InvalidReturnType,InvalidNullableReturnType,MissingParamType,InvalidFalsableReturnType",
+		"test": "phpunit -c tests/phpunit.xml",
+		"test:acceptance": "phpunit -c tests/phpunit.xml tests/Acceptance",
+		"test:unit": "phpunit -c tests/phpunit.xml tests/Unit",
+		"test:acceptance:dev": "phpunit -c tests/phpunit.xml tests/Acceptance --no-coverage",
+		"test:unit:dev": "phpunit -c tests/phpunit.xml tests/Unit --no-coverage"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"platform": {
+			"php": "8.0"
+		},
+		"sort-packages": true
+	}
+}

@@ -1,0 +1,274 @@
+#container h2 {
+	margin-left: 24px;
+}
+
+.section-header {
+	display: block;
+	padding: 30px 30px 0 30px;
+	margin-bottom: 0;
+}
+
+.activitysubject {
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: 85%;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	text-overflow: ellipsis;
+	overflow-wrap: anywhere;
+}
+
+.activitymessage {
+	margin-left: 25px;
+	color: var(--color-text-maxcontrast);
+	text-overflow: ellipsis;
+}
+
+.activity-previews {
+	margin-left: 24px;
+}
+
+#no_more_activities {
+	position: relative;
+	top: 50px;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+
+	z-index: 100;
+	margin: 40px auto;
+	bottom: 20px;
+	color: var(--color-text-maxcontrast);
+}
+
+#loading_activities {
+	height: 50px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#container {
+	margin-bottom: 20px;
+	clear: both;
+	border-radius: 5px;
+}
+
+.activity-section .group {
+	clear: both;
+	padding-bottom: 10px;
+}
+
+.activity.box {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.activity.box .header{
+	height: 32px;
+	margin-bottom: 10px;
+}
+
+.activity.box .messagecontainer{
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.activity.box .preview{
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+
+.activity.box .preview-dir-icon,
+.activity.box .preview-mimetype-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.activity.box .preview:not(.preview-mimetype-icon) {
+	border: 1px solid var(--color-border);
+	border-radius: var(--border-radius-large);
+}
+
+.activity.box .user{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	display: inline-block;
+	width: 180px;
+	font-weight: bold;
+}
+
+.activity.box .activitytime {
+	float: right;
+	color: var(--color-text-maxcontrast);
+	font-size: 0.8em;
+	padding: 20px;
+	margin: -20px;
+}
+
+.activity.box .appname {
+	float: right;
+	color: #333;
+	font-size: 0.8em;
+}
+
+.activity.box .grouped{
+	list-style: none;
+}
+
+.activity.box .grouped .more{
+	cursor: default;
+	color: var(--color-text-maxcontrast);
+}
+
+/* Navigation icons */
+#app-navigation img {
+	margin-bottom: -3px;
+	margin-right: 6px;
+	width: 16px;
+}
+
+#app-navigation li span.no-icon {
+	padding-left: 25px;
+}
+
+/* Style for in event parameters */
+.activity-section a.filename,
+.activity-section a.email,
+.activity-section strong {
+	font-weight: bold;
+}
+
+.activity-previews a:hover,
+.activity-previews a:focus {
+	opacity: .5;
+}
+
+.activity-section a:hover,
+.activity-section a:focus,
+.avatar-name-wrapper:hover,
+.avatar-name-wrapper:focus {
+	color: var(--color-text-maxcontrast);
+}
+
+.activitysubject strong.systemtag {
+	display: inline-block;
+	padding: 2px 5px;
+	border-radius: 3px;
+	background-color: var(--color-background-darker);
+	font-weight: normal;
+}
+
+.activitysubject span.icon-home {
+	display: inline-block;
+	margin-bottom: -2px;
+}
+
+.activity-section .avatar {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 5px 2px 3px;
+}
+
+.activity-section .avatar:focus-visible {
+	box-shadow: 0 0 0 2px var(--color-primary-element);
+}
+
+.icon-activity {
+	background-image: url(../img/activity-dark.svg);
+	filter: var(--background-invert-if-dark);
+}
+
+/* colored icons, in addition to core ones */
+.activity-icon {
+	min-width: 16px;
+	min-height: 16px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2px;
+	background-size: contain;
+}
+
+.activity-icon img {
+	max-width: 16px;
+	max-height: 16px;
+}
+
+.activity-icon.monochrome {
+	opacity: 0.8;
+	filter: var(--background-invert-if-dark);
+}
+
+#rssurl > input.feed-link {
+	width: 80%;
+}
+
+#rssurl .icon-clippy {
+	width: 44px;
+	height: 44px;
+	background-size: 16px 16px;
+	display: inline-block;
+	position: relative;
+	top: 6px;
+}
+
+#activity-personal-settings-link {
+	text-decoration: underline;
+}
+
+#activity-personal-settings-link a {
+	display: block;
+	padding: 10px 0 10px 25px;
+}
+
+.activitymessage .avatar-name-wrapper,
+.activitysubject .avatar-name-wrapper {
+	position: relative;
+	cursor: pointer;
+}
+
+.opengraph {
+	margin: 10px;
+	max-width: 700px;
+	height: 125px;
+	position: relative;
+	border: 1px solid var(--color-border-dark);
+	padding-right: 15px;
+}
+
+.opengraph-name {
+	font-size: 15px;
+	padding-left: 5px;
+	font-weight: bold;
+	margin: 10px 5px 5px 5px;
+}
+
+.opengraph-description {
+	padding-left: 10px;
+}
+
+.opengraph-thumb {
+	width: 160px;
+	height: 119px;
+	margin: 3px 15px 5px 3px;
+	position: absolute;
+	background: var(--color-border) center no-repeat;
+	background-size: 220px;
+}
+
+.opengraph-with-thumb {
+	margin-left: 175px;
+}
+
+.opengraph-website {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: var(--color-text-maxcontrast);
+}

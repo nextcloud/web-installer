@@ -1,0 +1,16 @@
+OC.L10N.register(
+    "notifications",
+    {
+    "Hello %s" : "สวัสดี %s",
+    "Hello %s," : "สวัสดี %s",
+    "Notifications" : "การแจ้งเตือน",
+    "Dismiss" : "ปิดทิ้ง",
+    "seconds ago" : "วินาทีที่ผ่านมา",
+    "in {path}" : "ใน {path}",
+    "No notifications" : "ไม่มีการแจ้งเตือน",
+    "Never" : "ไม่เคย",
+    "1 hour" : "1 ชั่วโมง",
+    "Your settings have been updated." : "อัปเดตการตั้งค่าของคุณแล้ว",
+    "You need to set up your email address before you can receive notification emails." : "คุณต้องตั้งค่าที่อยู่อีเมลของคุณก่อนที่จะสามารถรับอีเมลแจ้งเตือน"
+},
+"nplurals=1; plural=0;");

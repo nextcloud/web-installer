@@ -1,0 +1,16 @@
+.totp-form {
+	margin: 16px auto 1px !important;
+}
+
+.totp-form > input {
+	padding: 10px;
+	margin: 0 0 5px 0;
+}
+
+.totp-form > input[type='tel'] {
+	margin: 0 0 5px 0;
+}
+
+.two-factor-totp-icon {
+	filter: var(--background-invert-if-bright);
+}

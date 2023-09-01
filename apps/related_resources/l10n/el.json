@@ -1,0 +1,8 @@
+{ "translations": {
+    "Calendar" : "Ημερολόγιο",
+    "Deck" : "Deck",
+    "Files" : "Αρχεία",
+    "Talk conversation" : "Συνομιλία στο Talk",
+    "Talk" : "Ομιλία"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

@@ -1,0 +1,20 @@
+OC.L10N.register(
+    "related_resources",
+    {
+    "Calendar" : "Календарь",
+    "Calendar \"%s\"" : "Календарь \"%s\"",
+    "Deck" : "Карточки",
+    "Deck board \"%s\"" : "Доска \"%s\"",
+    "Files" : "Файлы",
+    "File \"%s\"" : "Файл \"%s\"",
+    "Group Folder" : "Групповая папка",
+    "Group Folder \"%s\"" : "Групповая папка \"%s\"",
+    "Talk conversation" : "Название обсуждения",
+    "Conversation with %s" : "Обсуждение с %s",
+    "Talk" : "Говорить ",
+    "Talk conversation \"%s\"" : "Обсуждения \"%s\"",
+    "Related Resources" : "Связанные ресурсы",
+    "Displays resources related to current item in right panel" : "Отображает на правой панели ресурсы, связанные с текущим элементом",
+    "Displays resources related to current item in right panel." : "Отображает на правой панели ресурсы, связанные с текущим элементом."
+},
+"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>support</id>
+	<name>Support</name>
+	<summary>Getting support and help for your Nextcloud</summary>
+	<description>The support app covers you with direct access to help and consulting resources, dedicated contact options to your account manager and an overview of your enterprise subscription.</description>
+	<version>1.10.0</version>
+	<licence>agpl</licence>
+	<author>Morris Jobke</author>
+	<namespace>Support</namespace>
+	<types>
+		<session />
+	</types>
+	<category>integration</category>
+	<bugs>https://github.com/nextcloud/server/issues</bugs>
+	<screenshot>https://user-images.githubusercontent.com/245432/43194622-1a40ce90-9003-11e8-8101-15d08cce7264.png</screenshot>
+	<dependencies>
+		<nextcloud min-version="27" max-version="27" />
+	</dependencies>
+	<background-jobs>
+		<job>OCA\Support\BackgroundJobs\CheckSubscription</job>
+	</background-jobs>
+	<repair-steps>
+		<post-migration>
+			<step>OCA\Support\Repair\SwitchUpdaterServer</step>
+		</post-migration>
+	</repair-steps>
+	<commands>
+		<command>OCA\Support\Command\SystemReport</command>
+	</commands>
+</info>

@@ -1,0 +1,27 @@
+{
+    "name": "nextcloud/privacy",
+    "description": "-",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Georg Ehrke"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "nextcloud/coding-standard": "^1.0.0"
+    },
+    "scripts": {
+        "lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
+        "cs:fix": "php-cs-fixer fix",
+        "test:integration": "vendor/bin/phpunit -c tests/phpunit.integration.xml"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}

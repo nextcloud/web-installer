@@ -1,0 +1,27 @@
+OC.L10N.register(
+    "circles",
+    {
+    "Personal" : "Personīgs",
+    "System" : "Sistēma",
+    "Visible" : "Redzams",
+    "Open" : "Atvērt",
+    "Hidden" : "Paslēpts",
+    "Local" : "Lokāls",
+    "Root" : "Root",
+    "Federated" : "Federated",
+    "Contact" : "Kontakts",
+    "Circle" : "Loks",
+    "Admin" : "Admin",
+    "Owner" : "Īpašnieks",
+    "Open »%s«" : "Atvērt »%s«",
+    "Accept" : "Akceptēt",
+    "%s" : "%s",
+    "now" : "šobrīd",
+    "No files in here" : "Šeit nav datņu",
+    "No entries found in this folder" : "Šajā mapē nekas nav atrasts",
+    "Name" : "Vārds",
+    "Size" : "Izmērs",
+    "Modified" : "Mainīts",
+    "Could not find share" : "Nevarēja atrast koplietojumu"
+},
+"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

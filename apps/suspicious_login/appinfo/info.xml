@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>suspicious_login</id>
+	<name>Suspicious Login</name>
+	<summary>Detect and warn about suspicious IPs logging into Nextcloud
+	</summary>
+	<description>Detect and warn about suspicious IPs logging into Nextcloud
+	</description>
+	<version>5.0.0</version>
+	<licence>agpl</licence>
+	<author>Christoph Wurst</author>
+	<namespace>SuspiciousLogin</namespace>
+	<types>
+		<authentication/>
+	</types>
+
+	<category>security</category>
+	<website>https://github.com/ChristophWurst/suspicious_login</website>
+	<bugs>https://github.com/ChristophWurst/suspicious_login/issues</bugs>
+	<repository>https://github.com/ChristophWurst/suspicious_login.git</repository>
+
+	<dependencies>
+		<nextcloud min-version="27" max-version="27"/>
+	</dependencies>
+
+	<background-jobs>
+		<job>OCA\SuspiciousLogin\BackgroundJob\ETLJob</job>
+		<job>OCA\SuspiciousLogin\BackgroundJob\TrainJobIpV4</job>
+		<job>OCA\SuspiciousLogin\BackgroundJob\TrainJobIpV6</job>
+	</background-jobs>
+
+	<commands>
+		<command>OCA\SuspiciousLogin\Command\ETL</command>
+		<command>OCA\SuspiciousLogin\Command\Optimize</command>
+		<command>OCA\SuspiciousLogin\Command\Predict</command>
+		<command>OCA\SuspiciousLogin\Command\Seed</command>
+		<command>OCA\SuspiciousLogin\Command\Train</command>
+	</commands>
+
+	<settings>
+		<admin>OCA\SuspiciousLogin\Settings\AdminSettings</admin>
+	</settings>
+</info>

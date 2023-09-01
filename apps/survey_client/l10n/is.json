@@ -1,0 +1,26 @@
+{ "translations": {
+    "Last report sent on: {on}" : "Síðasta skýrsla send þann: {on}",
+    "An error occurred while sending your report." : "Villa kom upp við að senda skýrsluna þína.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Forritalisti <em>(fyrir hvert forrit: nafn, útgáfa, staða virkni)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Gagnagrunnsumhverfi <em>(tegund, útgáfa, stærð gagnagrunns)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Dulritunarupplýsingar <em>(er virkt?, hver er sjálfgefin kerfiseining)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Fjöldi sameigna <em>(eftir gerð og heimildum)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-umhverfi <em>(útgáfa, takmörk minnis, hám. keyrslutími, hám. skráastærð)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Nánar um ástand netþjóns <em>(útgáfa, notað skyndiminni, staða læsinga/forskoðunar/auðkennismynda)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Tölfræði <em>(fjöldi skráa, notenda, geymslur af hvaða gerð, athugasemdir og merki)</em>",
+    "Usage survey" : "Könnun á notkun",
+    "Help improve Nextcloud" : "Hjálpaðu til við að bæta Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Myndir þú vilja hjálpa til við að bæta Nextcloud með því að senda okkur ákveðin nafnlaus gögn um uppsetninguna þína og notkun? Þú getur gert þetta óvirkt aftur hvenær sem er í kerfisstjórnunarstillingunum.",
+    "Not now" : "Ekki núna",
+    "Send usage" : "Senda upplýsingar um notkun",
+    "Never" : "Aldrei",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sendir nafnlaus gögn til Nextcloud til að hjálpa okkur við að bæta Nextcloud.",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Þú getur hjálpað til við að bæta Nextcloud með því að senda okkur ákveðin gögn um uppsetninguna þína og notkun.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Við tökum gagnaleynd þína alvarlega. Sending notkunargagna er sjálfgefið óvirk og ef þú myndir velja að virkja hana, eru gögnin fyrst gerð algerlega órekjanleg og þér gefinn kostur á að velja hvað af þessum gögnum verður deilt. Þegar skýrsla berst er fyrri skýrsla fjarlægð. Sendu inn auða skýrslu til að hreinsa út öll gögn sem hafa verið geymd á þjóninum.",
+    "Send new report now" : "Senda nýja skýrslu núna",
+    "Send usage survey monthly" : "Senda mánaðarlega könnun á notkun",
+    "Data to send" : "Gögn til sendingar",
+    "Last report sent on: %s" : "Síðasta skýrsla send þann: %s",
+    "Last report" : "Síðasta skýrsla"
+},"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
+}

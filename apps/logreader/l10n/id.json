@@ -1,0 +1,11 @@
+{ "translations": {
+    "App" : "Apl",
+    "Time" : "Waktu",
+    "Message" : "Pesan",
+    "Show details" : "Tampilkan detail",
+    "Info" : "Info",
+    "Warning" : "Peringatan",
+    "Error" : "Galat",
+    "Copy" : "Salin"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

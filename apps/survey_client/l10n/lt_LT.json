@@ -1,0 +1,27 @@
+{ "translations": {
+    "Last report sent on: {on}" : "Paskutinė ataskaita išsiųsta: {on}",
+    "An error occurred while sending your report." : "Siunčiant jūsų ataskaitą, įvyko klaida.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Programėlių sąrašas <em>(kiekvienos programėlės: pavadinimas, versija, įjungimo būsena)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Duomenų bazės aplinka <em>(tipas, versija, duomenų bazės dydis)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informacija apie šifravimą <em>(ar jis įjungtas?, koks yra numatytasis modulis)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Viešinių skaičius <em>(pagal tipą ir leidimo nustatymą)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP aplinka <em>(versija, atminties riba, didžiausias vykdymo laikas, didžiausias failo dydis)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Informacija apie serverio egzempliorių <em>(versija, naudojamas atminties podėlis, užrakinimo/peržiūrų/avatarų būsena)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(failų, naudotojų, saugyklų pagal tipą, komentarų ir žymių skaičius)</em>",
+    "Usage survey" : "Naudojimosi apklausa",
+    "Help improve Nextcloud" : "Padėkite patobulinti Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ar norite padėti mums tobulinti Nextcloud, pateikiant kai kuriuos anonimizuotus duomenis apie savo sąranką bei naudojimą? Jūs bet kuriuo metu galite tai vėl išjungti administratoriaus nustatymuose.",
+    "Not now" : "Ne dabar",
+    "Send usage" : "Siųsti naudojimąsi",
+    "Never" : "Niekada",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Siunčia anonimizuotus duomenis į Nextcloud, kad padėtų mums tobulinti Nextcloud.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Siunčia anonimizuotus duomenis į Nextcloud, kad padėtų mums tobulinti Nextcloud. Jūs\n\t\tvisada pilnai valdote į Nextcloud siunčiamą turinį ir bet kuriuo metu galite išjungti\n\t\tduomenų siuntimą.",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Galite padėti mums tobulinti Nextcloud, siųsdami kai kuriuos duomenis apie savo esamą sąranką ir naudojimąsi.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Mes žiūrime į privatumą labai rimtai. Pagal numatymą, duomenų siuntimas yra išjungtas, o jei nuspręsite jį įjungti, tuomet, visų pirma, duomenys bus anonimizuoti ir jums bus suteikta galimybė pasirinkti, kuriuos duomenis norite bendrinti. Gavus ataskaitą, ankstesnė ataskaita yra pašalinama. Norėdami ištrinti visus serveryje saugomus duomenis, išsiųskite tuščią ataskaitą.",
+    "Send new report now" : "Siųsti naują ataskaitą dabar",
+    "Send usage survey monthly" : "Siųsti naudojimosi apklausą kas mėnesį",
+    "Data to send" : "Duomenys, kuriuos siųsti",
+    "Last report sent on: %s" : "Paskutinė ataskaita išsiųsta: %s",
+    "Last report" : "Paskutinė ataskaita"
+},"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
+}

@@ -1,0 +1,23 @@
+{
+	"name": "nextcloud/password_policy",
+	"description": "Password Policy for Nextcloud",
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"platform": {
+			"php": "8.0"
+		}
+	},
+	"scripts": {
+		"cs:fix": "php-cs-fixer fix",
+		"cs:check": "php-cs-fixer fix --dry-run --diff",
+		"lint": "find . -name \\*.php -not -path './vendor/*' -print0 | xargs -0 -n1 php -l",
+		"test:unit": "vendor/bin/phpunit -c tests/phpunit.xml"
+
+	},
+	"require-dev": {
+		"christophwurst/nextcloud_testing": "^0.12.4",
+		"nextcloud/coding-standard": "^1.0.0",
+		"phpunit/phpunit": "^9.5"
+	}
+}

@@ -1,0 +1,17 @@
+#survey_client textarea {
+	height: 150px;
+	width: 100%;
+}
+
+#survey_client button {
+    margin: 20px 0;
+}
+
+#last_report .icon {
+	display: inline-block;
+	background-position-y: 3px;
+}
+
+#last_report.empty .icon {
+	display: none;
+}

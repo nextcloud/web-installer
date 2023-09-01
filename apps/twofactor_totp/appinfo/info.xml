@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>twofactor_totp</id>
+	<name>Two-Factor TOTP Provider</name>
+	<summary>TOTP two-factor provider</summary>
+	<description>A Two-Factor-Auth Provider for TOTP (RFC 6238)</description>
+	<version>9.0.0</version>
+	<licence>agpl</licence>
+	<author>Christoph Wurst</author>
+	<namespace>TwoFactorTOTP</namespace>
+	<category>security</category>
+
+	<website>https://github.com/nextcloud/twofactor_totp#readme</website>
+	<bugs>https://github.com/nextcloud/twofactor_totp/issues</bugs>
+	<repository type="git">https://github.com/nextcloud/twofactor_totp.git</repository>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/twofactor_totp/dd1e48deec73a250886f35f3924186f5357f4c5f/screenshots/enter_challenge.png</screenshot>
+	<screenshot>https://raw.githubusercontent.com/nextcloud/twofactor_totp/dd1e48deec73a250886f35f3924186f5357f4c5f/screenshots/settings.png</screenshot>
+	<dependencies>
+		<nextcloud min-version="27" max-version="27" />
+	</dependencies>
+	<two-factor-providers>
+		<provider>OCA\TwoFactorTOTP\Provider\TotpProvider</provider>
+	</two-factor-providers>
+	<commands>
+		<command>OCA\TwoFactorTOTP\Command\CleanUp</command>
+	</commands>
+	<activity>
+		<settings>
+			<setting>OCA\TwoFactorTOTP\Activity\Setting</setting>
+		</settings>
+		<providers>
+			<provider>OCA\TwoFactorTOTP\Activity\Provider</provider>
+		</providers>
+	</activity>
+</info>

@@ -1,0 +1,9 @@
+{ "translations": {
+    "Forum" : "انجمن",
+    "News" : "اخبار",
+    "Like our Facebook page" : "پسندیدن صفحه فیس بوک ما",
+    "Follow us on Twitter" : "ما را در توییتر دنبال کنید",
+    "Check out our blog" : "وبلاگ ما را بررسی کنید",
+    "Subscribe to our newsletter" : "مشترک شدن در خبرنامه ما"
+},"pluralForm" :"nplurals=2; plural=(n > 1);"
+}
