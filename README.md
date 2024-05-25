@@ -18,6 +18,8 @@ It downloads the [latest stable release](https://docs.nextcloud.com/server/lates
   - The `AllowOverride All` option must be enabled for the target installation folder
   - The `mod_rewrite` module must be enabled
 
+It is possible to use this with other web servers, such as nginx, but you will need to prepare your web server configuration ahead of time since the web-install cannot utilize `.htaccess` files. See the [Admin Manual](https://docs.nextcloud.com/server/latest/admin_manual/installation/nginx.html) for the latest nginx config.
+
 > [!NOTE]
 > [Other installation methods](https://docs.nextcloud.com/server/stable/admin_manual/installation/source_installation.html) support other web servers (e.g. NGINX) and usage scenarios. See the [Nextcloud Administration Manual](https://docs.nextcloud.com) for further guidance including other [installation methods](https://docs.nextcloud.com/server/stable/admin_manual/installation/source_installation.html) and their [system requirements](https://docs.nextcloud.com/server/stable/admin_manual/installation/system_requirements.html#system-requirements)).
 
