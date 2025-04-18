@@ -148,11 +148,14 @@ class Setup {
 
 		// unpacking into nextcloud folder
 		$zip = new ZipArchive;
-		$res = $zip->open('nc.zip');
-		if ($res==true) {
+		$zipState = $zip->open('nc.zip');
+		if ($zipState === true) {
 			// Extract it to the tmp dir
 			$nextcloud_tmp_dir = 'tmp-nextcloud'.time();
-			$zip->extractTo($nextcloud_tmp_dir);
+			$extraction = $zip->extractTo($nextcloud_tmp_dir);
+			if ($extraction === false) {
+				return 'Error during unpacking zipfile: ' . ($zip->getStatusString());
+    			}
 			$zip->close();
 
 			// Move it to the folder
@@ -167,7 +170,7 @@ class Setup {
 			// Delete the tmp folder
 			rmdir($nextcloud_tmp_dir);
 		} else {
-			$error.='unzip of nextcloud source file failed.<br />';
+			$error.='Unzip of nextcloud source file failed: ' . print_r($zipState, true) . ' <br />';
 		}
 
 		// deleting zip file
