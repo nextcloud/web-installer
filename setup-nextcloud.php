@@ -582,6 +582,7 @@ input[type="submit"] img, input[type="button"] img, button img, .button img { cu
 	background-color: #0092d9;
 	color: #fff;
 }
+#submit:disabled { background-color: #1A5276; color: #696969; }
 
                 </style>
 			</head>
@@ -612,7 +613,21 @@ input[type="submit"] img, input[type="button"] img, button img, .button img { cu
 	static public function showContent($title, $content, $nextpage=''){
 		echo('
 		<script>
+            function disableNext() {
+                const currentStep = document.getElementsByName("step")[0].value;
+                let textResult = "";
+                if (currentStep === "1") {
+                    textResult = "Checking...";
+                } else if (currentStep === "2") {
+                    textResult = "Installing...";
+                } else {
+                    textResult = "Redirecting...";
+                }
+                document.getElementById("submit").setAttribute("value", textResult);
+                document.getElementById("submit").setAttribute("disabled", "");
+            }
 			var validateForm = function(){
+                disableNext();
 				if (typeof urlNotExists === "undefined"){
 					return true;
 				}
